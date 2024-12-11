@@ -2,8 +2,8 @@
 Changelog for package ur_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.0 (2024-12-11)
+------------------
 * Remove Iron workflows and from README (`#230 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/230>`_)
 * Assure the description is loaded as string (`#229 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/229>`_)
 * Contributors: Felix Exner
