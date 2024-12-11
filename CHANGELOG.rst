@@ -2,6 +2,12 @@
 Changelog for package ur_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Remove Iron workflows and from README (`#230 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/230>`_)
+* Assure the description is loaded as string (`#229 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/229>`_)
+* Contributors: Felix Exner
+
 2.4.5 (2024-10-14)
 ------------------
 * Revert "Add passthrough command interfaces for joints (`#204 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/204>`_)" (`#214 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/214>`_)
