@@ -19,6 +19,10 @@
       <state_interface name="effort">
         <param name="initial_value">0.0</param>
       </state_interface>
+      <state_interface name="target_position"/>
+      <state_interface name="target_velocity"/>
+      <state_interface name="target_acceleration"/>
+      <state_interface name="target_effort"/>
     </joint>
     <joint name="${tf_prefix}shoulder_lift_joint">
       <command_interface name="position"/>
@@ -34,6 +38,10 @@
       <state_interface name="effort">
         <param name="initial_value">0.0</param>
       </state_interface>
+      <state_interface name="target_position"/>
+      <state_interface name="target_velocity"/>
+      <state_interface name="target_acceleration"/>
+      <state_interface name="target_effort"/>
     </joint>
     <joint name="${tf_prefix}elbow_joint">
       <command_interface name="position"/>
@@ -49,6 +57,10 @@
       <state_interface name="effort">
         <param name="initial_value">0.0</param>
       </state_interface>
+      <state_interface name="target_position"/>
+      <state_interface name="target_velocity"/>
+      <state_interface name="target_acceleration"/>
+      <state_interface name="target_effort"/>
     </joint>
     <joint name="${tf_prefix}wrist_1_joint">
       <command_interface name="position"/>
@@ -64,6 +76,10 @@
       <state_interface name="effort">
         <param name="initial_value">0.0</param>
       </state_interface>
+      <state_interface name="target_position"/>
+      <state_interface name="target_velocity"/>
+      <state_interface name="target_acceleration"/>
+      <state_interface name="target_effort"/>
     </joint>
     <joint name="${tf_prefix}wrist_2_joint">
       <command_interface name="position"/>
@@ -79,6 +95,10 @@
       <state_interface name="effort">
         <param name="initial_value">0.0</param>
       </state_interface>
+      <state_interface name="target_position"/>
+      <state_interface name="target_velocity"/>
+      <state_interface name="target_acceleration"/>
+      <state_interface name="target_effort"/>
     </joint>
     <joint name="${tf_prefix}wrist_3_joint">
       <command_interface name="position"/>
@@ -94,6 +114,10 @@
       <state_interface name="effort">
         <param name="initial_value">0.0</param>
       </state_interface>
+      <state_interface name="target_position"/>
+      <state_interface name="target_velocity"/>
+      <state_interface name="target_acceleration"/>
+      <state_interface name="target_effort"/>
     </joint>
   </xacro:macro>
 </robot>
