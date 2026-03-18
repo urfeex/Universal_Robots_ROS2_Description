@@ -95,3 +95,12 @@ mesh_files:
         package: ur_description
         path: meshes/ur10e/collision/wrist3.stl
     visual_offset: -0.1168
+
+  
+  finger_protection:
+    collision:
+      mesh:
+        package: ur_description
+        path: meshes/ur10e/collision/finger_pinch_protection.stl
+    visual_offset: 0.0393
+    visual_offset_xyz: "0 0 0.0393"

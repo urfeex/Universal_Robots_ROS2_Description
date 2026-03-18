@@ -331,6 +331,26 @@
       </inertial>
     </link>
 
+    <link name="${tf_prefix}finger_protection_link">
+      <xacro:get_visual_params name="finger_protection" type="visual_offset_xyz"/>
+      <xacro:property name="mesh_offset" value="${visual_params}" scope="parent"/>
+      <collision>
+        <origin
+          xyz="${mesh_offset}"
+          rpy="${pi/2} 0 0"/>
+        <geometry>
+          <xacro:get_mesh name="finger_protection" type="collision"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="${tf_prefix}forearm_link-finger_protection_joint" type="fixed">
+      <parent link="${tf_prefix}forearm_link"/>
+      <child link="${tf_prefix}finger_protection_link"/>
+      <!--<origin xyz="${-forearm_x} ${-shoulder_z} 0" rpy="${-pi/2} 0 0"/>-->
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
     <!-- base_joint fixes base_link to the environment -->
     <joint name="${tf_prefix}base_joint" type="fixed">
       <xacro:insert_block name="origin" />
